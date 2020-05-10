@@ -1,0 +1,27 @@
+{
+  "name": "zhihu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production nodemon app/index.js",
+    "dev": "nodemon app/index.js"
+  },
+  "author": "Pupil",
+  "license": "MIT",
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-json-error": "^3.1.2",
+    "koa-jwt": "^3.6.0",
+    "koa-parameter": "^3.0.1",
+    "koa-statics": "0.0.5",
+    "mongodb": "^3.3.0-beta2",
+    "mongoose": "^5.6.5",
+    "nodemon": "^1.19.1"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.12.1"
+  }
+}
